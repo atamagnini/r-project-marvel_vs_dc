@@ -2,7 +2,7 @@ library(tidyverse)
 library(highcharter)
 library(htmlwidgets)
 
-dataset = read.csv('/D:/R scripts/script171220_Marvel_vs_DC/Marvel vs DC/db.csv',
+dataset = read.csv('~/db.csv',
                    fileEncoding = 'Latin1', check.names = F)
 #dataset <- dataset[order(dataset$Company),]
 dataset <- dataset[, -1]
